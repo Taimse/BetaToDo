@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: 96px 1fr 36px;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    'header header '
+    'siterbar  task'
+    'footer footer ';
+}

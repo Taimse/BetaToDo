@@ -1,0 +1,98 @@
+.detailes {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 722px;
+  height: 521px;
+  background: #ffd7a7;
+  box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+  transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+.detailesOpen {
+  position: fixed;
+  opacity: 1;
+  visibility: visible;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 722px;
+  height: 521px;
+  background: #ffd7a7;
+  box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+  transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+}
+.ditalesC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.close {
+  align-self: flex-end;
+  margin: 10px;
+}
+.title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+.containerInput {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-areas: 'WT ST';
+  align-items: center;
+}
+.selectTask {
+  display: flex;
+  grid-area: ST;
+  margin: 0 10px 0 0;
+}
+.select {
+  grid-area: SD;
+  height: 60px;
+  background: #f8ca94;
+  border-radius: 10px;
+}
+.whatTask {
+  grid-area: WT;
+  height: 60px;
+  margin: 0 0 0 27px;
+  background: #f8ca94;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #585353;
+}
+.button {
+  grid-area: B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: #7fdb88;
+  border-radius: 8px;
+}

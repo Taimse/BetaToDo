@@ -1,0 +1,12 @@
+.PriorityText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #585353;
+}
+.priretiD {
+  margin: 5px;
+  height: 3px;
+  background: #635f5f;
+}
